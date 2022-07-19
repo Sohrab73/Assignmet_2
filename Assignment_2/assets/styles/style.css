@@ -1,0 +1,32 @@
+*body{
+  width: auto;
+}
+
+.bg{
+        position: absolute;   
+        z-index: -1;
+        width: 100vh;     
+}
+.text{
+   text-align: center;
+   padding-top: 20px;
+}
+.align-items-center {
+    -ms-flex-align: center!important;
+ 
+    padding-left: 100px;
+  }
+  .d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    border-radius: 5px;
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      width: 100vh;
+    }
+  }
+  .hsq{
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
